@@ -18,7 +18,13 @@ export const Button = styled('button', {
         type: {
             primary: {
                 padding: '$4 $12',   
-            }
+            },
+            danger: {
+                backgroundColor: '#C21700'
+            },
+            success: {
+                backgroundColor: '#44C13C'
+            },
         },
         size: {
             large: {
