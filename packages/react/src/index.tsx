@@ -8,29 +8,36 @@ export const Button = styled('button', {
     fontWeight: '$medium',
     backgroundColor: '$luna600',
     borderRadius:'$md',
-    padding: '$4',
+    padding: '$8 $12',
     border: 0,
     color: '$white',
-    width: '100px',
+    width: 'auto',
     radii: '$md',
     
     variants: {
+        type: {
+            primary: {
+                padding: '$4 $12',   
+            }
+        },
         size: {
+            large: {
+                fontSize: '$1.125rem',
+                padding: '$4 $16', 
+                fontWeight: '$bold',
+            },
             small: {
                 fontSize: '$sm',
                 padding: '$2 $4',
-            },
-            big: {
-                fontSize: '16',
-                padding: '$3 $6', 
+                fontWeight: '$medium',
             },
         },
     },
     
     //quando não for setado nenhum tipo específico
-    defaultVariants: {
-        size: 'small',
-    },
+    // defaultVariants: {
+    //     size: 'small',
+    // },
 });
 
 export type ButtonProps = ComponentProps<typeof Button>
