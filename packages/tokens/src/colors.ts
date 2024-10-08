@@ -23,4 +23,7 @@ export const colors = {
   luna800: '#2727ac',
   luna900: '#272888',
   luna950: '#18174f',
+
+  lunaRed: '#C21700',
+  lunaGreen: '#02A032',
 }
