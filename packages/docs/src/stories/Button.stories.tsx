@@ -20,12 +20,34 @@ export const Primary: StoryObj<ButtonProps> = {
     },
 };
 
+export const PrimaryRound: StoryObj<ButtonProps> = {
+    args: {
+        type: 'primaryRound',
+        children: 'Primary Round'
+    },
+};
+
+export const Second: StoryObj<ButtonProps> = {
+    args: {
+        type: 'second',
+        children: 'Second Button'
+    },
+};
+
+export const Tertiary: StoryObj<ButtonProps> = {
+    args: {
+        type: 'tertiary',
+        children: 'Tertiary Button'
+    },
+};
+
 export const Danger: StoryObj<ButtonProps> = {
     args: {
         type: 'danger',
         children: 'Danger Button'
     },
 };
+
 export const Success: StoryObj<ButtonProps> = {
     args: {
         type: 'success',
@@ -33,16 +55,9 @@ export const Success: StoryObj<ButtonProps> = {
     },
 };
 
-export const Large: StoryObj<ButtonProps> = {
+export const Round: StoryObj<ButtonProps> = {
     args: {
-        size: 'large',
-        children: 'Large Button'
-    },
-};
-
-export const Small: StoryObj<ButtonProps> = {
-    args: {
-        size: 'small',
-        children: 'Small Button'
+        type: 'round',
+        children: 'Round Button'
     },
 };
