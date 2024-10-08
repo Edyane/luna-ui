@@ -1,41 +1,36 @@
 import { ComponentProps } from 'react';
 import { styled } from './styles';
 
-
 export const Button = styled('button', {
     fontFamily: '$default',
-    fontSize: '$md',
-    fontWeight: '$medium',
+    fontSize: '$sm',
+    fontWeight: '$semibold',
     backgroundColor: '$luna600',
     borderRadius:'$md',
-    padding: '$8 $12',
+    padding: '$4 $6',
     border: 0,
     color: '$white',
     width: 'auto',
-    radii: '$md',
+    radii: '$xs',
     
     variants: {
         type: {
-            primary: {
-                padding: '$4 $12',   
-            },
             danger: {
-                backgroundColor: '#C21700'
+                backgroundColor: '#C21700',
             },
             success: {
-                backgroundColor: '#44C13C'
+                backgroundColor: '#44C13C',
             },
         },
         size: {
             large: {
-                fontSize: '$1.125rem',
-                padding: '$4 $16', 
+                fontSize: '$md',
+                padding: '$4 $10', 
                 fontWeight: '$bold',
             },
             small: {
-                fontSize: '$sm',
-                padding: '$2 $4',
-                fontWeight: '$medium',
+                fontSize: '$xs',
+                padding: '$3 $5',
             },
         },
     },
