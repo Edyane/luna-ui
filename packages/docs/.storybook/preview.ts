@@ -1,29 +1,29 @@
 // import type { Preview } from "@storybook/react";
 
 // const preview: Preview = {
-// 	parameters: {
-// 		controls: {
-// 			matchers: {
-// 				color: /(background|color)$/i,
-// 				date: /Date$/i,
-// 			},
-// 		},
-// 	},
+//   parameters: {
+//     controls: {
+//       matchers: {
+//         color: /(background|color)$/i,
+//         date: /Date$/i,
+//       },
+//     },
+//   },
 // };
 
 // export default preview;
 
-import { themes } from "@storybook/theming";
+// Replace your-framework with the framework you are using (e.g., react, vue3)
+import { Preview } from '@storybook/react';
 
-export const parameters = {
-	actions: { argTypesRegex: "^on[A-Z].*" },
-	controls: {
-		matchers: {
-			color: /(background|color)$/i,
-			date: /Date$/,
-		},
-	},
-	docs: {
-		theme: themes.dark,
-	},
+import { themes } from '@storybook/theming';
+
+const preview: Preview = {
+  parameters: {
+    docs: {
+      theme: themes.dark,
+    },
+  },
 };
+
+export default preview;
