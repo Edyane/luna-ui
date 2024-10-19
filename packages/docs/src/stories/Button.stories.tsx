@@ -1,61 +1,67 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button, ButtonProps } from '@luna-ui/react';
+import { Button } from '@luna-ui/react';
 
-export default {
-    title: 'Button',
+// docs
+const meta = {
+    title: 'Buttons/Button',
     component: Button,
-
+    tags: ['autodocs'],
+    parameters: {
+        layout: 'fullscreen',
+    },
     args: {
+        type: 'default',
         children: 'Enviar',
     },
+} satisfies Meta<typeof Button>;
 
-} as Meta<ButtonProps>
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-// export const Primary: StoryObj<ButtonProps> = {}
-
-export const Primary: StoryObj<ButtonProps> = {
+// type buttons
+export const Primary: Story = {
     args: {
         type: 'primary',
         children: 'Primary Button'
     },
 };
 
-export const PrimaryRound: StoryObj<ButtonProps> = {
+export const PrimaryRound: Story = {
     args: {
         type: 'primaryRound',
         children: 'Primary Round'
     },
 };
 
-export const Second: StoryObj<ButtonProps> = {
+export const Second: Story = {
     args: {
         type: 'second',
         children: 'Second Button'
     },
 };
 
-export const Tertiary: StoryObj<ButtonProps> = {
+export const Tertiary: Story = {
     args: {
         type: 'tertiary',
         children: 'Tertiary Button'
     },
 };
 
-export const Danger: StoryObj<ButtonProps> = {
+export const Danger: Story = {
     args: {
         type: 'danger',
         children: 'Danger Button'
     },
 };
 
-export const Success: StoryObj<ButtonProps> = {
+export const Success: Story = {
     args: {
         type: 'success',
         children: 'Success Button'
     },
 };
 
-export const Round: StoryObj<ButtonProps> = {
+export const Round: Story = {
     args: {
         type: 'round',
         children: 'Round Button'
