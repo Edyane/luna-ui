@@ -1,9 +1,14 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Avatar, AvatarProps } from '@luna-ui/react';
 
-export default {
-	title: 'Data display/Avatar ',
+// docs
+const meta = {
+	title: 'Avatar/Avatar',
 	component: Avatar,
+	tags: ['autodocs'],
+	parameters: {
+		layout: 'fullscreen',
+	},
 	args: {
 		src: 'https://github.com/edyane.png',
 		alt: 'Edyane',
@@ -15,11 +20,18 @@ export default {
 			},
 		},
 	},
-} as Meta<AvatarProps>
+} satisfies Meta<typeof Avatar>;
 
-type Story = StoryObj<AvatarProps>
+export default meta;
+type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {}
+// avatar types
+export const Primary: Story = {
+	args: {
+		src: 'https://github.com/edyane.png',
+		alt: 'Edyane',
+	},
+}
 
 export const WithFallback: Story = {
 	args: {
