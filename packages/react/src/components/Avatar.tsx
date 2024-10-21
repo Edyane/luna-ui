@@ -46,3 +46,5 @@ export function Avatar(props: AvatarProps) {
         </AvatarRoot>
     )
 };
+
+Avatar.displayName = 'Avatar';
