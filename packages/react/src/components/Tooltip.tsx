@@ -67,3 +67,5 @@ export function Tooltip({ description, children }: TooltipProps) {
 		</TooltipPrimitive.Root>
 	)
 };
+
+Tooltip.displayName = 'Tooltip';
