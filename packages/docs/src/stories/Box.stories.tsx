@@ -1,29 +1,32 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Text } from '../../../react/src/components/Text';
-import { Box, BoxProps } from '@luna-ui/react';
+import { Box } from '@luna-ui/react';
+import './styles.css';
 
-export default {
-	title: 'Surfaces/Box ',
+// docs
+const meta = {
+	title: 'Layout/Box',
 	component: Box,
+	tags: ['autodocs'],
+	parameters: {
+		layout: 'fullscreen',
+	},
+	args: {
+		type: 'default',
+		children: 'Enviar',
+	},
+} satisfies Meta<typeof Box>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+// box types
+export const PrimaryBox: Story = {
 	args: {
 		children: (
 			<Text>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
-				inventore dignissimos, nulla, ipsum officia magni eius unde dicta a in
-				voluptates vitae placeat, animi dolores odio praesentium explicabo!
-				Perspiciatis, quod.
+				A simple container for organizing stuff of any sizes or hierarchies.
 			</Text>
 		),
 	},
-	argTypes: {
-		children: {
-			control: {
-				type: null,
-			},
-		},
-	},
-} as Meta<BoxProps>
-
-type Story = StoryObj<BoxProps>
-
-export const Primary: Story = {}
+};
