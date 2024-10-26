@@ -2,14 +2,14 @@
 
 This design system was developed as a learning initiative, with the goal of enhancing understanding of design principles, development practices, and the significance of consistency in interface creation.
 
-## Components
+## Components 📕
 
 - **Avatar**
-  - Variants: primary and with fallback.
+  - Primary and with fallback.
 - **Layout**
   - Box
 - **Button**
-  - Variants: primary, primary round, second, tertiary, danger, success and round.
+  - Primary, primary round, second, tertiary, danger, success and round.
 - **Form**
   - Checkbox, multistep, textarea and textinput.
 - **Tipografia**
@@ -17,7 +17,7 @@ This design system was developed as a learning initiative, with the goal of enha
 - **Tooltip**
 - Primary
 
-## Stacks
+## Technologies 💻
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
