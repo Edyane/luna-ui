@@ -5,7 +5,7 @@ export const TextArea = styled('textarea', {
 	boxSizing: 'border-box',
 	minHeight: 80,
 	padding: '$3 $4',
-	border: '2px solid $gray900',
+	border: '2px solid $gray600',
 	borderRadius: '$sm',
 	backgroundColor: '$gray900',
 	fontFamily: '$default',
@@ -16,7 +16,7 @@ export const TextArea = styled('textarea', {
 
 	'&:focus': {
 		outline: 0,
-		borderColor: '$ignite300',
+		borderColor: '$luna500',
 	},
 
 	'&:disabled': {
