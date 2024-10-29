@@ -5,12 +5,12 @@ export const TextInputContainer = styled('div', {
 	display: 'flex',
 	alignItems: 'center',
 	boxSizing: 'border-box',
-	border: '2px solid $gray900',
+	border: '2px solid $gray700',
 	borderRadius: '$sm',
 	backgroundColor: '$gray900',
 
 	'&:focus-within': {
-		borderColor: '$ignite300',
+		borderColor: '$luna500',
 	},
 
 	'&.disabled': {
