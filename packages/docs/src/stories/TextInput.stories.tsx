@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Text, TextInput, TextInputProps } from '@luna-ui/react';
+import './styles.css';
 
 export default {
 	title: 'Form/Text Input',
@@ -34,6 +35,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 
 export const WithPrefix: StoryObj<TextInputProps> = {
 	args: {
-		prefix: 'cal.com/',
+		prefix: 'test@mail.com',
 	},
 };
