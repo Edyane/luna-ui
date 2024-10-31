@@ -10,19 +10,19 @@ const CheckboxRoot = styled(CheckboxPrimitive.Root, {
 	boxSizing: 'border-box',
 	width: '$6',
 	height: '$6',
-	backgroundColor: '$gray900',
-	border: '2px solid $gray900',
+	backgroundColor: '$gray700',
+	border: '1px solid $gray600',
 	borderRadius: '$xs',
 	lineHeight: 0,
 	overflow: 'hidden',
 	cursor: 'pointer',
 
 	'&[data-state="checked"]': {
-		backgroundColor: '$ignite300',
+		backgroundColor: '$luna400',
 	},
 
 	'&:focus, &[data-state="checked"]': {
-		border: '2px solid $ignite300',
+		border: '2px solid $luna400',
 	},
 });
 
