@@ -1,16 +1,15 @@
-import { ComponentProps, ElementType } from 'react';
+import { ComponentProps } from 'react';
 import { styled } from '../styles';
 
 export const Box = styled('div', {
-    width: '620px',
+    width: '420px',
     padding: '$6',
     backgroundColor: '$gray800',
-    borderRadius: '$md',
-    border: '1px solid $luna600',
-})
+    borderRadius: '$sm',
+    border: '1px solid $gray600',
+    margin: '25px',
+});
 
-Box.displayName = 'Box'
+export type BoxProps = ComponentProps<typeof Box>
 
-export interface BoxProps extends ComponentProps<typeof Box> {
-    as?: ElementType
-};
+Box.displayName = 'Box';
