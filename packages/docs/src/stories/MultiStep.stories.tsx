@@ -1,5 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Box, MultiStep, MultiStepProps } from '@luna-ui/react';
+import './styles.css';
 
 export default {
 	title: 'Form/Multi Step ',
