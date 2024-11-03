@@ -1,5 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Text, TextProps } from '@luna-ui/react';
+import './styles.css';
 
 export default {
 	title: 'Typography/Text ',
