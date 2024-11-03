@@ -1,6 +1,11 @@
+import './App.css';
+
 function App() {
+
 	return (
-		<h1>Luna UI</h1>
+		<>
+			<h1>Luna UI Design System</h1>
+		</>
 	)
 }
 
