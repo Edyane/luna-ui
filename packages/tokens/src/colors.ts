@@ -11,7 +11,6 @@ export const colors = {
   gray800: '#202024',
   gray900: '#121214',
 
-  
   luna50: '#edf2ff',
   luna100: '#dee8ff',
   luna200: '#c3d2ff',
@@ -23,7 +22,6 @@ export const colors = {
   luna800: '#2727ac',
   luna900: '#272888',
   luna950: '#18174f',
-
   lunaRed: '#C21700',
   lunaGreen: '#02A032',
 }
