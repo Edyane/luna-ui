@@ -1,5 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
-import { Avatar, AvatarProps } from '@luna-ui/react';
+import { Avatar } from '@luna-ui/react';
+import './styles.css';
 
 // docs
 const meta = {
