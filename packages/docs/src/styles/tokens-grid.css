@@ -1,0 +1,31 @@
+.tokens-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+	gap: 16px;
+}
+
+.swatch {
+	position: relative;
+	padding: 16px;
+	border-radius: 8px;
+	overflow: hidden;
+	height: 80px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.swatch-content {
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+}
+
+.swatch-name {
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 4px;
+}
+
+.swatch-value {
+	font-size: 12px;
+}
