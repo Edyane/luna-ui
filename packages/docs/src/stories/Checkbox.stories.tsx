@@ -1,5 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react';
 import { Box, Text, Checkbox, CheckboxProps } from '@luna-ui/react';
+import './styles.css';
 
 export default {
 	title: 'Form/Checkbox',
