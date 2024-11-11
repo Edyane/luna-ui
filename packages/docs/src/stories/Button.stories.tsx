@@ -1,9 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from '@luna-ui/react';
+import './styles.css';
 
 // docs
 const meta = {
-    title: 'Buttons/Button',
+    title: 'Type Buttons/Button',
     component: Button,
     tags: ['autodocs'],
     parameters: {
